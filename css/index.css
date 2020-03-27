@@ -1,0 +1,23 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html {
+
+}
+body{
+	background: url(../img/nature.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+main {
+	background: #1CD3FB;
+	width: 80%;
+	color: #fff;
+	border: 1px solid #1CD3FB;
+	border-radius: 5px 10px;
+	margin: 110px auto 0px;
+	text-align: center;
+}
