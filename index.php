@@ -1,3 +1,6 @@
+<?php 
+	include 'scripts/subscribe.php';
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,13 +42,19 @@
 	<div class="form-top">
 		<h4>Enter Your Email.</h4>
 	</div>
-	<form action="#" method="POST" class="subscribers">
+	<form action="index.php" method="POST" class="subscribers" id="subscribers">
 		<div class="form-group">
 			<label for="email">Your Email:</label>
 			<input type="email" class="form-control" placeholder="someone@example.com" name="barua" required>
 		</div>
-		<button class="btn btn-success">Subscribe</button>
+		<button class="btn btn-success" name="sub">Subscribe</button>
 	</form>
+
+	<footer id="mwisho">
+		<div class="content">
+			<p>Wangaruro &copy; <script>let date = new Date; let cyr = date.getFullYear(); document.write(cyr);</script></p>
+		</div>
+	</footer>
 	<!--/javascript files-->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
