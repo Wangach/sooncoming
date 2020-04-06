@@ -1,7 +1,7 @@
 <?php 
 include 'db.php';
-
-if (isset($_POST['sub'])) {
+if(isset($_POST['sub'])){
+	
 	$random = ["a", "b", "c", "d", "e", "F", "1", "2", "3", "5", "6"];
 	$holder = "";
 
@@ -19,6 +19,5 @@ if (isset($_POST['sub'])) {
 	}else{
 		echo "Sorry. There Has Been An Error!";
 	}
-
 }
  ?>

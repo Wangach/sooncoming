@@ -1,6 +1,3 @@
-<?php 
-	include 'scripts/subscribe.php';
- ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +39,7 @@
 	<div class="form-top">
 		<h4>Enter Your Email.</h4>
 	</div>
-	<form action="index.php" method="POST" class="subscribers" id="subscribers">
+	<form action="scripts/subscribe.php" method="POST" class="subscribers" id="subscribers">
 		<div class="form-group">
 			<label for="email">Your Email:</label>
 			<input type="email" class="form-control" placeholder="someone@example.com" name="barua" required>
@@ -56,8 +53,8 @@
 		</div>
 	</footer>
 	<!--/javascript files-->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/index.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
