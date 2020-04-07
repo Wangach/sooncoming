@@ -55,3 +55,11 @@ footer#mwisho {
 	position: fixed;
 	padding: 30px;
 }
+div#results {
+	background: #fff;
+	width: 60%;
+	margin: 20px auto 0px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-align: center;
+}

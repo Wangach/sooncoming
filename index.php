@@ -42,9 +42,10 @@
 	<form action="scripts/subscribe.php" method="POST" class="subscribers" id="subscribers">
 		<div class="form-group">
 			<label for="email">Your Email:</label>
-			<input type="email" class="form-control" placeholder="someone@example.com" name="barua" required>
+			<input type="email" class="form-control" placeholder="someone@example.com" name="barua" id="mail" required>
 		</div>
 		<button class="btn btn-success" name="sub">Subscribe</button>
+		<div id="results"></div>
 	</form>
 
 	<footer id="mwisho">
